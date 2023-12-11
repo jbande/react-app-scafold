@@ -1,0 +1,22 @@
+@import '../../app/colors';
+.ap-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    background: $contrast-primary-100;
+    width: 100vw;
+    height: 60px;
+    align-items: center;
+}
+
+.sd-panel {
+    height: 100vh;
+}
+
+.ap-container {
+    height: 100vh;
+    background: $primary-900;
+    overflow: scroll;
+    padding-left: 10px;
+}

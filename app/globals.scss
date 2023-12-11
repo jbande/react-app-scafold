@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'colors.scss';
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  //color: rgb(var(--foreground-rgb));
+  color: #334155;
+  /*background: linear-gradient(*/
+  /*    to bottom,*/
+  /*    transparent,*/
+  /*    rgb(var(--background-end-rgb))*/
+  /*  )*/
+  /*  rgb(var(--background-start-rgb));*/
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 26px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px
+}
+
+p {
+  font-size: 12px;
+}
+
+.tag {
+  background: #94a3b8;
+  border-radius: 15px;
+  padding: 6px;
+  color: white;
+  font-size: 12px;
+}
+
+.content-box {
+  border-radius: 6px;
+  box-shadow: -8px 12px 31px -6px rgba(0,0,0,0.42);
+  -webkit-box-shadow: -8px 12px 31px -6px rgba(0,0,0,0.42);
+  -moz-box-shadow: -8px 12px 31px -6px rgba(0,0,0,0.42);
+  padding: 20px;
+  background-color: $primary-900;
+  margin-bottom: 20px;
+}

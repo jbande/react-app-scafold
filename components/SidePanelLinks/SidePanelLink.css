@@ -1,0 +1,12 @@
+
+.sp-link {
+    background: #f1f5f9;
+    margin-bottom: 1px;
+    border-radius: 3px;
+    font-size: 14px;
+    color: #334155;
+}
+
+.sp-link:hover {
+    background: #e2e8f0;
+}

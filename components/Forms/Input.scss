@@ -1,0 +1,62 @@
+@import '../../app/colors';
+
+.d-input-box {
+  margin-bottom: 10px;
+  position: relative;
+
+  .d-input-group {
+    width: 100%;
+    display: flex;
+    gap: 2px;
+    .d-input {
+      padding: 0.5rem 0.7rem;
+      border: 1px solid $secondary-300;
+      border-radius: 4px;
+      outline: none;
+      width: 100%;
+
+
+      &:hover {
+        border: 1px solid $secondary-500;
+      }
+      &:focus {
+        border: 1px solid $secondary-400;
+      }
+      &:disabled {
+        background-color: $contrast-primary-900;
+        border: 1px solid $contrast-primary-800;
+      }
+    }
+  }
+
+
+  .d-drop-box {
+    position: relative;
+    width: 100%;
+    .d-search-drop {
+      position: absolute;
+      left: 0;
+      top: 0px;
+      width: 100%;
+      min-height: 150px;
+      max-height: 200px;
+      overflow-y: scroll;
+      z-index: 100;
+      background-color: $secondary-900;
+      border: 1px solid $secondary-600;
+      border-radius: 3px;
+      display: none;
+      &.active {
+        display: block;
+      }
+      .d-search-item {
+        padding: 8px;
+        &:hover {
+          background-color: $contrast-primary-700;
+        }
+      }
+    }
+  }
+
+}
+
