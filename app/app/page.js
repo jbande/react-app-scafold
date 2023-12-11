@@ -4,11 +4,7 @@ import BoxModel from "../../components/Trainings/BoxModel";
 import Canvas3d from "../../components/canvas3d/canvas3d";
 export default function Dashboard() {
     return (
-        <div style={{height: '1289px'}}>
-            {/*<Position/>*/}
-            {/*<BoxModel />*/}
-            <Canvas3d />
-        </div>
+        <h1>Content of the view goes here</h1>
     )
 }
 
